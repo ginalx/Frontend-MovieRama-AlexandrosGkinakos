@@ -1,0 +1,41 @@
+.card {
+  margin: 1em 0;
+  border-radius: 0.3em;
+  overflow: hidden;
+  box-shadow: 0 2px 2px #0a10143d, 0 0 2px #0a10141f;
+  background-color: #444;
+  max-height: calc(278px + 2em);
+  transition: 0.2s ease-in-out;
+}
+
+.active {
+  max-height: 1500px;
+}
+
+.card-snapshot {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 1;
+  background: #444;
+  cursor: pointer;
+}
+
+.card-poster-container,
+.card-poster {
+  height: 278px;
+  width: 185px;
+}
+
+.card-poster {
+  border-radius: 0.3em;
+}
+
+.card-poster-container {
+  padding: 1em;
+}
+
+.empty-poster {
+  transform: scale(0.4);
+  opacity: 0.1;
+}

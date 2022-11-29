@@ -1,0 +1,47 @@
+body {
+  background: #303030;
+  color: whitesmoke;
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 0;
+}
+
+#page-title {
+  padding-top: 60px;
+  text-align: center;
+}
+
+#movie-list {
+  max-width: 60em;
+  margin: 0 auto;
+}
+
+.toolbar {
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  background: #006064;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+
+.search-input {
+  border: none;
+  border-bottom: 1px solid whitesmoke;
+  border-radius: 0.1em;
+  width: 15em;
+  font-size: 1em;
+  padding: 0.4em;
+  background: none;
+  color: whitesmoke;
+}
+
+.search-input::placeholder {
+  color: whitesmoke;
+}

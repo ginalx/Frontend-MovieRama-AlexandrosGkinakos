@@ -1,0 +1,24 @@
+.short-info {
+  padding: 0 1em 1em 0.5em;
+}
+
+.short-info-genre-list {
+  font-size: 0.9em;
+}
+
+.short-info-rating {
+  font-size: 0.9em;
+  margin: 0.5em 0;
+}
+
+.short-info-star {
+  width: 1.4em;
+  vertical-align: text-bottom;
+  margin-right: 0.2em;
+}
+
+.short-info-overview {
+  margin: 0;
+  overflow: auto;
+  height: 10em;
+}
